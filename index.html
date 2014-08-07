@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:100,300' rel='stylesheet' type='text/css'>
+  <title>Constructors</title>
+</head>
+<body>
+
+  <div class="container">
+    <form>
+    <div class="screenOne">
+      <h2>CHOOSE A TRADE</h2>
+
+        <select type="select" class="trade">
+          <option value="Painting">Painting</option>
+          <option value="Sculpture">Sculpture</option>
+          <option value="Photography">Photography</option>
+        </select>
+        <div class="images">
+<!--           <select name="select" type="select" class="trade">
+  <option value="Painting">Painting</option>
+  <option value="Sculpture">Sculpture</option>
+  <option value="Photography">Photography</option>
+</select> -->
+          <ul>
+            <li><a id="Painting" href=""><img src="images/paint.png" alt=""></a></li>
+            <li><a id="Sculpture" href=""><img src="images/sculpt.png" alt=""></a></li>
+            <li><a id="Photography" href=""><img  src="images/photo.png" alt=""></a></li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="screenTwo">
+      <h2>CHOOSE A CONSUMER AUDIENCE</h2>
+
+        <select type="select" class="consumer">
+          <option value="Accessible">Very Accessible</option>
+          <option value="Moderately Accessible">Moderately Accessible</option>
+          <option value="Exclusive">Exclusive</option>
+        </select>
+
+        <div class="images">
+          <ul>
+            <li><a id="Accessible" href=""><img src="images/access.png" alt=""></a></li>
+            <li><a id="Moderately Accessible" href=""><img  src="images/moderate.png" alt=""></a></li>
+            <li><a id="Exclusive" href=""><img src="images/exclusive.png" alt=""></a></li>
+          </ul>
+        </div>
+
+    </div>
+
+    <div class="screenThree">
+    <h2>CHOOSE A GALLERY</h2>
+
+      <select type="select" class="gallery">
+        <option value="Rebekah Jacob Gallery">Rebekah Jacob Gallery</option>
+        <option value="Robert Lange Studios">Robert Lange Studios</option>
+        <option value="Michael Mitchell">Michael Mitchell Gallery</option>
+      </select>
+
+      <div class="images">
+        <ul>
+          <li><a id="Rebekah Jacob Gallery" href=""><img src="images/gallery1.png" alt=""></a></li>
+          <li><a id="Robert Lange Studios" href=""><img src="images/gallery2.png" alt=""></a></li>
+          <li><a id="Michael Mitchell" href=""><img src="images/gallery3.png" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+
+
+  <button name="submit">SUBMIT</button>
+
+  </form>
+  <div class="results hide"><p>YOUR YEARLY INCOME IS: <span class="resultTotal"></span></p></div>
+</div>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
